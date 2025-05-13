@@ -1,2 +1,2 @@
 # StudyDesignPatterns
-A repository for studying the most popular design patterns in the Python language.
+A repository for learning popular design patterns in Python
