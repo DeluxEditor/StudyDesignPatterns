@@ -1,7 +1,13 @@
 # StudyDesignPatterns
 A repository for learning popular design patterns in Python
+## CREATIONAL patterns
+Resume: 
+1. We use SINGLETON когда нам нужно чтобы какая-то сущность была только в одном экземпляре
+2. АбстрактнаяФабрика порождает семейство объектов, сама по себе фабрика тоже объект (их мб много для разных семейств)
+3. Фабричный МЕТОД порождает обьекты в зависимости от того какой объект мы хотим, во время runtime
+Абстрактные фабрики очень часто содержат в себе эти фабричные методы вместо того чтобы возвращать захардкоженые листы, как в примере с прошлого коммита
 
-SINGLETON:
+//TODO: Взять фабричный метод и внедрить его в абстрактную фабрику, чтобы улучшить код (не хардкодить тупо списком кнопки, для каких-нибудь специфических эквалайзеров).
 ### Singleton Design Pattern
 
 The Singleton pattern ensures that a class has only one instance and provides a global point of access to it.
